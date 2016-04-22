@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SpeedReader</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <h2>SpeedReader</h2>
+
+    <div id="speedScreen"></div>
+
+    <div class="controlArea">
+        <p>Play Controls:</p>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+
+    <div class="controlArea">
+        <p>Speed:</p>
+        <select id="speed">
+            <option value="300">200 wpm</option>
+            <option value="200">300 wpm</option>
+            <option value="171" selected="selected">350 wpm</option>
+            <option value="150">400 wpm</option>
+            <option value="133">450 wpm</option>
+            <option value="120">500 wpm</option>
+        </select>
+    </div>
+
+    <div class="controlArea">
+        <p>Size:</p>
+        <label>
+            <input name="size" type="radio" value="36pt" checked="checked">Medium</label>
+        <label>
+            <input name="size" type="radio" value="48pt">Big</label>
+        <label>
+            <input name="size" type="radio" value="60pt">Bigger</label>
+    </div>
+
+    <div>
+        <div class="controlArea">
+            <p>Input Text</p>
+            <textarea rows="15" cols="150" id="mytextarea"></textarea>
+        </div>
+    </div>
+
+</div>
+
+<div id="validators">
+
+    <a href="https://webster.cs.washington.edu/validate-html.php">
+        <img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="Valid HTML" /></a>
+    <a href="https://webster.cs.washington.edu/validate-css.php">
+        <img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Valid CSS" /></a>
+    <a href="https://webster.cs.washington.edu/jslint/?referer">
+        <img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Valid JS" /></a>
+</div>
+</body>
+</html>

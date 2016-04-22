@@ -1,0 +1,56 @@
+body {
+    background-color: aliceblue;
+    font-family: Calibri;
+    font-size: 12pt;
+    text-align: center;
+}
+h2{
+    font: 40px arial;
+}
+#speedScreen {
+    width: 50%;
+    height: 150px;
+    font-size: 40px;
+    border: 3px solid cadetblue;
+    border-radius: 5px;
+    font-family: arial;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: white;
+    width: 80px;
+}
+button:disabled{
+    background-color:darkgray;
+    color: lightgray;
+}
+
+.controlArea{
+    display: inline-block;
+    margin: 10px;
+}
+
+p {
+    text-align: left;
+    border-bottom: 1px solid cadetblue;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+img {
+    width: 90px;
+}
+
+#validators {
+    text-align: left;
+}
+
